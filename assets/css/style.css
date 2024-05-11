@@ -450,21 +450,6 @@ ul li a,a{
 	background: #07090A;
 }
 
-.footer_menu .menu ul li a {
-	font-size: 12px; 
-}
-
-.footer_menu .logo a img {
-	width: 193px;
-}
-
-.footer_menu  .header_social ul li a img {
-	width: 21px;
-}
-
-.footer_menu .header_social ul li:last-child a img {
-	width: 18px !important;
-}
 
 .footer_copy_text {
 	font-size: 14px;
@@ -521,6 +506,142 @@ button:focus {
 .acordion_tabs ul li p{ 
 	font-size: 18px;
 	color: #fff;
+}
+
+.strick_carousel .owl-next:hover {
+	background: transparent !important; 
+}
+
+.strick_carousel .owl-prev:hover {
+	background: transparent !important; 
+}
+
+.strick_carousel .owl-dot span {
+	width: 15px !important;
+	height: 15px !important;
+	background: transparent !important;
+	border: 1px solid #ddd;
+}
+
+.strick_carousel .owl-dot.active span {
+	background: #fff !important;
+	margin-right: 30px !important;
+	position: relative;
+}
+
+.strick_carousel .owl-dot.active span::after {
+	position: absolute;
+	content: '';
+	right: -24px;
+	width: 25px;
+	height: 1px;
+	background: #fff;
+	top: 6px;
+}
+
+@keyframes jumpInfinite {
+	0% {
+	  margin-top: 0;
+	}
+	50% {
+	  margin-top: 10px;
+	}
+ 
+	100% {
+	  margin-top: 0;
+	}
+  }
+
+  .down_arrow a {
+	position: relative;
+  }
+
+  .down-arrows {
+	animation: jumpInfinite 1.5s infinite;
+	position: absolute;
+	top: 26px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.mobile_bars {
+	display: none;
+}
+
+
+
+.footer_social ul li a img {
+	width: 32px;
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer_menus ul {
+	display: flex;
+	gap: 50px;
+}
+
+.footer_social ul {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+
+.footer_social ul li:last-child a img {
+	width: 28px;
+}
+
+.footer_social ul li a{
+	transition: 0.3s;
+}
+
+.footer_social ul li a:hover img{
+	opacity: 0.83;
+}
+
+.footer_social ul li span {
+	height: 32px;
+	width: 2px;
+	background: #fff;
+	display: inline-block;;
+	transform: translateY(4px);
+}
+
+.footer_menus ul li a {
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	transition: 0.3s;
+}
+
+.footer_menus ul li a:hover {
+	color: #3DB3A2;
+}
+
+/* sdsndjsbd  */
+
+
+.footer_menus ul li a {
+	font-size: 12px; 
+}
+
+.footer_area .logo a img {
+	width: 193px;
+}
+
+.footer_social ul li a img {
+	width: 21px;
+}
+
+.footer_social ul li:last-child a img {
+	width: 18px !important;
 }
 
 /*======================  End Page  ======================*/

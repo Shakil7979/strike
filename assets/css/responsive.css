@@ -3,20 +3,234 @@
         max-width: 1600px;
     }
 }
+@media all and (max-width: 1560px){ 
+    .strike_carousel_item img {
+        width: 426px !important; 
+    }
+    .strick_carousel .owl-next img, .strick_carousel .owl-prev img {
+        width: 23px !important;
+    }
+}
+@media all and (max-width: 1400px){
+    .logo a img {
+        width: 45px;
+    }
+    .newsletter_content h4, .section_title h4, .feature_phase h4, .strike_text h4 {
+        font-size: 22px; 
+    }
+    .newsletter_content h2, .section_title h2, .feature_phase h2, .strike_text h2 {
+        font-size: 70px; 
+    }
+    .tokenomics_table h4 {
+        font-size: 20px; 
+    }
+    .newsletter_subscribe input { 
+        padding: 10px 15px; 
+        font-size: 14px; 
+        max-width: 339px; 
+    }
+    .newsletter_subscribe button {
+        padding: 10px 36px; 
+        font-size: 14px; 
+    }
+    .newsletter_content p {
+        font-size: 16px; 
+        margin-bottom: 74px;
+    }
+    .tokenomics_table p {
+        font-size: 14px; 
+    }
+    .acordion_tabs ul li p {
+        font-size: 16px; 
+    }
+    .accordion-button { 
+        font-size: 35px; 
+    }
+    .strike_second_box p {
+        font-size: 16px; 
+        line-height: 26px;
+        margin-bottom: 49px;
+    }
+    .strike_second_box { 
+        margin-left: 55px; 
+    }
+    .menu ul li a {
+        font-size: 14px;
+        font-weight: 400; 
+    }
+    .menu ul { 
+        gap: 25px;
+    }
+    .header_social ul li a img {
+        width: 20px;
+    }
+    .header_social ul li:last-child a img {
+        width: 19px;
+    }
+    .header_social ul li span {
+        height: 18px; 
+    }
+    .banner_text_title h2 {
+        font-size: 50px;
+    }
+    .banner_text p {
+        font-size: 27px;
+        max-width: 636px;
+        margin: 22px auto 90px auto;
+        width: 100%;
+    }
+    .banner_text_title img {
+        width: 67px;
+    }
+    .banner_area { 
+        padding-top: 220px;
+    }
+    .down_arrow {
+        padding: 60px 0 100px 0;
+    }
+    .btn_1 { 
+        font-size: 14px; 
+    }
+    .down_arrow a {
+        font-size: 14px; 
+    }
+}
 @media all and (max-width: 1199px){
-
+    .strike_second_box {
+        margin-left: 0;
+    }
 }
 
 @media all and (max-width: 991px){
-	
+    .banner_video {
+        height: 100%;
+    }
+    .footer { 
+        flex-direction: column;
+        gap: 13px;
+    }
+    .footer_menus ul { 
+        gap: 15px;
+    }
+    .strike_second_box {
+        margin-left: 30px;
+    }
+    .banner_video video {
+        width: 100%;
+        width: 100%;
+        height: 100%;
+        min-width: initial;
+        min-height: initial;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .strike_text {
+        margin-bottom: 50px;
+    }
+    .newsletter_content h2, .section_title h2, .feature_phase h2, .strike_text h2 {
+        font-size: 60px;
+    }
+    .newsletter_content h4, .section_title h4, .feature_phase h4, .strike_text h4 {
+        font-size: 16px;
+    }
 }
 
 @media all and (max-width: 767px){
-	
+	.menu ul {
+        gap: 10px;
+        flex-direction: column; 
+    }
+    .footer_copy { 
+        margin: 25px 0 50px 0;
+        padding-top: 25px; 
+        flex-direction: column;
+        gap: 18px;
+    }
+	.menu { 
+        position: absolute;
+        text-align: center;
+        background: #000;
+        width: 100%;
+        left: 0;
+        top: 104px;
+        z-index: 999;
+        padding: 25px 0;
+        display: none;
+    }
+    .header_social ul li span {
+        display: none;
+    }
+    .mobile_bars a i {
+        color: #3DB3A2;
+        font-size: 25px;
+    }
+    .mobile_bars {
+        display: block;
+        width: 25px;
+        text-align: center;
+    }
+    .feature_area {
+        background: transparent;
+    }
+    .newsletter_content p {
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+    .newsletter_subscribe button { 
+        flex: 0 0 50%;
+    }
+    .tokenomics_table {
+        margin-top: 45px; 
+    }
+    .section_padding {
+        padding: 50px 0;
+    }
+    .strike_second_box p {
+        font-size: 14px; 
+    }
+    .acordion_tabs ul li p {
+        font-size: 14px;
+    }
+    .accordion-button {
+        font-size: 25px;
+    }
 }
 
 @media all and (max-width: 575px){
-	
+    .banner_text_title h2 {
+        font-size: 32px;
+    }
+    .banner_text_title img {
+        width: 40px;
+    }
+    .banner_text p {
+        font-size: 21px; 
+        line-height: 32px;
+    }
+    .btn_1 {
+        padding: 15px 45px; 
+    }
+    .strike_second_box {
+        margin-left: 0;
+    }
+    .strike_second_box { 
+        margin-top: 16px;
+    }
+    .newsletter_content h2, .section_title h2, .feature_phase h2, .strike_text h2 {
+        font-size: 46px;
+    }
+    .footer_menus ul li a {
+        font-size: 10px;
+    }
+    .footer_menus ul {
+        gap: 10px;
+    }
 }
 
 @media all and (max-width: 450px){
