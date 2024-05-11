@@ -55,6 +55,7 @@ body{
 	font-size: 1.6rem; 
 	font-weight: 400; 
 	background: #080A0B;
+	overflow-x: hidden;
 	font-family: "Open Sans", sans-serif;
 }
 h1,h2,h3,h4,h5,h6,p{
@@ -184,6 +185,8 @@ ul li a,a{
 	font-weight: 700;
 	transition: 0.3s;
 	display: inline-block;
+	border-radius: 5px;
+	text-transform: uppercase;
 }
 
 .btn_1:hover {
@@ -247,6 +250,278 @@ ul li a,a{
 	width: 100%; 
 }
 
+.section_padding {
+	padding: 100px 0;
+}
+
+.strick_area{
+	background: url(../images/strike/bg.jpg) no-repeat scroll center center / cover;
+}
+
+.newsletter_content h4,
+.section_title h4,
+.feature_phase h4,
+.strike_text h4 {
+	font-size: 30px;
+	font-weight: 400;
+	font-family: "Bebas Neue", sans-serif;
+	color: #fff;
+}
+
+.newsletter_content h2,
+.section_title h2,
+.feature_phase h2,
+.strike_text h2 {
+	font-size: 100px;
+	font-weight: 400;
+	font-family: "Bebas Neue", sans-serif;
+	color: #fff;
+}
+
+.strike_second_box p {
+	font-size: 20px;
+	color: #fff;
+	line-height: 39px;
+	margin-bottom: 49px;
+}
+
+.strike_second_box {
+	width: 100%;
+	max-width: 482px;
+	margin-left: 153px;
+	margin-top: 45px;
+}
+
+.strike_carousel_item img {
+	width: 565px !important;
+	margin: 0 auto;
+}
+
+.strike_second_btn,
+.strike_carousel_item {
+	text-align: center;
+}
+
+.strike_second_box p span {
+	border-bottom: 3px solid #3DB3A2;
+}
+
+.strick_carousel {
+	position: relative
+}
+
+.owl-prev img {
+	width: 34px !important;
+}
+
+.strick_carousel .owl-next img ,
+.strick_carousel .owl-prev img {
+	width: 34px !important;
+}
+
+.strick_carousel .owl-prev {
+	position: absolute;
+	top: 41%;
+	left: 0;
+}
+
+.strick_carousel .owl-next {
+	position: absolute;
+	top: 41%;
+	right: 0;
+}
+
+.feature_img img {
+	width: 100%;
+}
+
+.feature_area{
+	position: relative;
+}
+
+.feature_area{
+	background: url(../images/feature/bg.png) no-repeat scroll center center / cover;
+}
+
+.feature_box_img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 8;
+}
+
+.tokenomics_area{
+	background: url(../images/tokenomics/bg.png) no-repeat scroll center center / cover;
+}
+
+
+.section_title h4, 
+.section_title h2 {
+	text-align: center;
+}
+
+
+.tokenomics_table h4 {
+	font-size: 24px;
+	font-weight: 400;
+	color: #3DB8A5;
+	text-transform: uppercase;
+	font-family: "Bebas Neue", sans-serif;
+}
+
+.tokenomics_table p {
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+	margin-bottom: 25px;
+}
+
+.tokenomics_table td {
+	border: 1px solid #ddd;
+	padding: 14px 15px;
+	width: 50%;
+}
+
+.tokenomics_table {
+	margin-top: 81px;
+}
+
+.token_btn {
+	text-align: center;
+	margin-top: 40px;
+}
+
+
+.tokenomics_table {
+	margin-top: 81px;
+	width: 100%;
+	max-width: 573px;
+}
+
+.token_span {
+	font-size: 10px !important;
+} 
+
+.newslatter_img img {
+	width: 100%;
+}
+
+.newsletter_content p {
+	font-size: 24px;
+	font-weight: 400;
+	color: #fff;
+	margin-bottom: 100px;
+}
+
+.newsletter_subscribe input {
+	background: #979797;
+	border: none;
+	padding: 20px;
+	width: 100%;
+	max-width: 364px;
+	border-radius: 5px;
+	color: #Fff;
+	font-size: 14px;
+}
+
+.newsletter_subscribe button {
+	padding: 20px 71px;
+	border: none;
+	border-radius: 5px;
+	background: #3DB8A5;
+	font-weight: 700;
+	font-size: 16px;
+	color: #1A1917;
+	transition: 0.3s;
+}
+
+.newsletter_subscribe button:hover{
+	opacity: 0.83;
+}
+
+.newsletter_subscribe {
+	display: flex;
+	gap: 20px;
+}
+
+.newsletter_area {
+	background: #07090A;
+}
+
+.footer_menu .menu ul li a {
+	font-size: 12px; 
+}
+
+.footer_menu .logo a img {
+	width: 193px;
+}
+
+.footer_menu  .header_social ul li a img {
+	width: 21px;
+}
+
+.footer_menu .header_social ul li:last-child a img {
+	width: 18px !important;
+}
+
+.footer_copy_text {
+	font-size: 14px;
+	color: #868686;
+}
+
+.footer_copy_link {
+	color: #fff;
+	font-size: 12px;
+	font-weight: 700;
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.footer_copy_link a{
+	color: #fff; 
+}
+
+.footer_copy {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 25px 0 114px 0;
+	padding-top: 25px;
+	border-top: 1px solid #202020;
+}
+
+
+.footer_area {
+	background: #07090A;
+}
+
+.accordion-button {
+	background: transparent; 
+	border: none !important;
+	text-align: left;
+	margin-top: 30px;
+	color: #3DB3A2 !important;
+	font-size: 50px;
+	font-family: "Bebas Neue", sans-serif;
+}
+
+button:focus {
+	outline: none; 
+}
+
+.acordion_tabs ul {
+	list-style: disc;
+	margin-left: 18px;
+}
+
+.acordion_tabs ul li p{ 
+	font-size: 18px;
+	color: #fff;
+}
 
 /*======================  End Page  ======================*/
 
