@@ -126,6 +126,9 @@
     .strike_car_two {
         display: none;
     }
+    .strike_carousel_item img {
+        width: 378px !important;
+    }
 }
 
 @media all and (max-width: 991px){
@@ -255,6 +258,9 @@
     }
     .banner_text_title img {
         width: 40px;
+    }
+    .strike_carousel_item img {
+        width: 311px !important;
     }
     .banner_text p {
         font-size: 21px; 
