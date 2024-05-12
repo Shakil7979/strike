@@ -156,6 +156,11 @@
     }
 }
 
+@media all and (min-width: 767px){
+    .menu{
+        display: block !important;
+    }
+}
 @media all and (max-width: 767px){
 	.menu ul {
         gap: 10px;
