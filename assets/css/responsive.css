@@ -1,17 +1,17 @@
-@media all and (min-width: 1560px){
+@media all and (min-width: 1760px){
     .container {
         max-width: 1600px;
     }
 }
-@media all and (max-width: 1560px){ 
+@media all and (max-width: 1760px){ 
     .strike_carousel_item img {
         width: 426px !important; 
     }
     .strick_carousel .owl-next img, .strick_carousel .owl-prev img {
         width: 23px !important;
-    }
+    } 
 }
-@media all and (max-width: 1400px){
+@media all and (max-width: 1760px){
     .logo a img {
         width: 45px;
     }
@@ -82,8 +82,8 @@
     .banner_text_title img {
         width: 67px;
     }
-    .banner_area { 
-        padding-top: 220px;
+    .banner_area {
+        padding-top: 287px;
     }
     .down_arrow {
         padding: 60px 0 100px 0;
@@ -95,9 +95,24 @@
         font-size: 14px; 
     }
 }
+@media all and (max-width: 1400px){
+    .banner_area { 
+        padding-top: 220px;
+    }
+    .banner_text p { 
+        margin: 22px auto 39px auto;
+    }
+}
 @media all and (max-width: 1199px){
     .strike_second_box {
         margin-left: 0;
+    }
+    .newsletter_content h2, .section_title h2, .feature_phase h2, .strike_text h2 {
+        font-size: 44px;
+    }
+    .newsletter_subscribe button {
+        padding: 10px 25px; 
+        flex: 0 0 47%;
     }
 }
 
@@ -134,7 +149,7 @@
         margin-bottom: 50px;
     }
     .newsletter_content h2, .section_title h2, .feature_phase h2, .strike_text h2 {
-        font-size: 60px;
+        font-size: 44px;
     }
     .newsletter_content h4, .section_title h4, .feature_phase h4, .strike_text h4 {
         font-size: 16px;
@@ -230,6 +245,9 @@
     }
     .footer_menus ul {
         gap: 10px;
+    }
+    .tokenomics_table td {
+        border: 2px solid #ddd; 
     }
 }
 
