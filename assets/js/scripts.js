@@ -6,8 +6,8 @@ $(document).ready(function(){
 		loop:true,
 		nav:true,
 		dots:true, 
-		navText: ["<img src='assets/images/strike/left.png'>","<img src='assets/images/strike/right.png'>"]
-		// autoplay:true,
+		navText: ["<img src='assets/images/strike/left.png'>","<img src='assets/images/strike/right.png'>"],
+		autoplay:true,
 	});
 
 	$(".menu ul li a, .down_arrow a").click(function () {
