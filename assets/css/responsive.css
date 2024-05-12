@@ -10,6 +10,14 @@
     .strick_carousel .owl-next img, .strick_carousel .owl-prev img {
         width: 23px !important;
     } 
+    .strike_car_one {   
+        width: 373px; 
+        right: 89px;
+    }
+    .strike_car_two { 
+        right: 73px; 
+        width: 298px; 
+    }
 }
 @media all and (max-width: 1760px){
     .logo a img {
@@ -113,6 +121,10 @@
     .newsletter_subscribe button {
         padding: 10px 25px; 
         flex: 0 0 47%;
+    }
+    .strike_car_one,
+    .strike_car_two {
+        display: none;
     }
 }
 

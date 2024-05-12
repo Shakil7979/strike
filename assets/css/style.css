@@ -293,7 +293,7 @@ ul li a,a{
 }
 
 .strike_carousel_item img {
-	width: 565px !important;
+	width: 503px !important;
 	margin: 0 auto;
 }
 
@@ -524,20 +524,9 @@ button:focus {
 }
 
 .strick_carousel .owl-dot.active span {
-	background: #fff !important;
-	margin-right: 30px !important;
+	background: #fff !important; 
 	position: relative;
-}
-
-.strick_carousel .owl-dot.active span::after {
-	position: absolute;
-	content: '';
-	right: -24px;
-	width: 25px;
-	height: 1px;
-	background: #fff;
-	top: 6px;
-}
+} 
 
 @keyframes jumpInfinite {
 	0% {
@@ -665,6 +654,45 @@ button:focus {
 }
 
 
+.strike_carousel_area {
+	position: relative;
+}
+
+.strike_car_two img,
+.strike_car_one img {
+	width: 100%;
+}
+
+
+.strike_car_one {
+	position: absolute;
+	top: -41px;
+	right: 99px;
+	height: auto;
+	bottom: 0;
+	margin: auto;
+	width: 450px;
+	display: flex;
+	align-items: center;
+	z-index: 5;
+}
+
+.strike_car_two {
+	position: absolute;
+	top: -40px;
+	right: 58px;
+	height: auto;
+	bottom: 0;
+	margin: auto 0;
+	width: 370px;
+	display: flex;
+	align-items: center;
+	z-index: 4;
+}
+
+.strick_carousel{
+	z-index: 6;
+}
 
 
 
