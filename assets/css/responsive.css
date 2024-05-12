@@ -208,7 +208,22 @@
         text-align: center;
     }
     .feature_area {
-        background: transparent;
+        position: relative;
+        /* background: transparent; */
+        background: url(../images/feature/feature.png) no-repeat scroll center center / cover;
+    }
+    .feature_area:after{
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0,0,0,0.5);
+    }
+    .feature_phase{
+        position: relative;
+        z-index: 9;
     }
     .newsletter_content p {
         font-size: 14px;
